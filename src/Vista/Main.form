@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Vista.Main">
+  <grid id="27dc6" binding="pnlPrincipal" layout-manager="GridLayoutManager" row-count="9" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-4078651"/>
+    </properties>
+    <border type="none" title=""/>
+    <children>
+      <component id="43b5e" class="javax.swing.JButton" binding="ENPROCESOButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18"/>
+          <foreground color="-2698976"/>
+          <text value="EN PROCESO"/>
+        </properties>
+      </component>
+      <component id="e1a81" class="javax.swing.JButton" binding="PARAINFORMARButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18"/>
+          <foreground color="-12265567"/>
+          <text value="PARA INFORMAR"/>
+        </properties>
+      </component>
+      <component id="2dfb2" class="javax.swing.JButton" binding="FINALIZADOSButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18"/>
+          <foreground color="-1541057"/>
+          <text value="FINALIZADOS"/>
+        </properties>
+      </component>
+      <component id="7b680" class="javax.swing.JButton" binding="URGENTESButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18"/>
+          <foreground color="-1302517"/>
+          <text value="URGENTES"/>
+        </properties>
+      </component>
+      <component id="cc12c" class="javax.swing.JButton" binding="FACTURADOSButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18"/>
+          <foreground color="-3582270"/>
+          <text value="FACTURADOS"/>
+        </properties>
+      </component>
+      <component id="deb09" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="16"/>
+          <text value="DIF - DIAGNOSTICOS DE INTERACCIÓN FAMILIAR"/>
+        </properties>
+      </component>
+      <component id="d4c51" class="javax.swing.JButton" binding="BUSCARCAUSAButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18"/>
+          <foreground color="-15236929"/>
+          <text value="BUSCAR CAUSA"/>
+        </properties>
+      </component>
+      <component id="f1b51" class="javax.swing.JButton" binding="TESTVALORACIÓNDEVIOLENCIAButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Castellar" size="18"/>
+          <text value="TEST VALORACIÓN DE VIOLENCIA"/>
+        </properties>
+      </component>
+      <component id="eced7" class="javax.swing.JButton" binding="NUEVODIFButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18"/>
+          <foreground color="-16260591"/>
+          <text value="NUEVO DIF"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
